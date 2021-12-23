@@ -13,22 +13,40 @@
       referrerpolicy="no-referrer"
     />
 
+    <style>
+      .row {
+        margin-top: 25vh;
+      }
+      h1 {
+        margin-top: 0;
+      }
+    </style>
+
     <title>Message</title>
   </head>
   <body>
     <div class="row">
       <div class="col s8 offset-s2">
-        <div class="card-panel">
+        <div id="encoded-panel" class="card-panel hide">
+          <h1 id="heading"></h1>
+          <div>
+            <a href="./index.html">Create new encoded message</a>
+          </div>
+        </div>
+
+        <div id="form-panel" class="card-panel">
           <form id="form">
             <label>Enter message</label>
             <input id="form-input" />
-            <button class="btn">Create</button>
+            <button class="btn">Encode your message</button>
           </form>
         </div>
 
-        <div>
-          Share link
-          <input id="link-share-input" />
+        <div id="share-panel" class="card-panel hide">
+          <div>
+            Share link
+            <input id="link-share-input" />
+          </div>
         </div>
       </div>
     </div>

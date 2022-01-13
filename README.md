@@ -13,7 +13,7 @@ December 23, 2022
 
 # View on browser
 
-## [https://n00bg1rl.github.io/message/](https://n00bg1rl.github.io/message/)
+## [https://n00bg1rl.github.io/base64-encoding/](https://n00bg1rl.github.io/base64-encoding/)
 
 # View as image
 
